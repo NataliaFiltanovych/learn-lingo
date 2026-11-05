@@ -1,0 +1,63 @@
+.header {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 0;
+  background-color: var(--white);
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--text-main);
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+}
+
+.navLink {
+  font-weight: 500;
+  color: var(--text-main);
+  transition: color 0.2s ease;
+}
+
+.navLink:hover {
+  color: var(--accent-color);
+}
+
+.authBox {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.loginBtn {
+  font-weight: 500;
+  color: var(--text-main);
+  background: transparent;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+
+.loginBtn:hover {
+  color: var(--accent-color);
+}
+
+.registerBtn {
+  font-weight: 500;
+  background-color: var(--accent-color);
+  color: #fff;
+  padding: 12px 39px;
+  border-radius: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.registerBtn:hover {
+  background-color: var(--accent-hover);
+}
