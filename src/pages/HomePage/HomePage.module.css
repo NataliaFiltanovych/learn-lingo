@@ -1,0 +1,112 @@
+.heroSection {
+  padding: 20px 0 96px 0;
+}
+
+.heroMainContainer {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.heroContent {
+  background-color: var(--background-light, #f8f9fc);
+  border-radius: 30px;
+  padding: 98px 64px;
+  max-width: 720px;
+  width: 100%;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: var(--text-main);
+  margin-bottom: 20px;
+}
+
+.titleHighlight {
+  font-style: italic;
+  font-weight: 400;
+  background-color: var(--accent-light, #cbded3);
+  padding: 0 8px;
+  border-radius: 8px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: -0.02em;
+  color: var(--text-main);
+  margin-bottom: 64px;
+  max-width: 471px;
+}
+
+.getStartedBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 750;
+  font-size: 18px;
+  line-height: 1.56;
+  background-color: var(--accent-color);
+  color: #fff;
+  border-radius: 12px;
+  padding: 16px 88px;
+  transition: background-color 0.2s ease;
+}
+
+.getStartedBtn:hover {
+  background-color: var(--accent-hover);
+}
+
+.heroImageWrapper {
+  background-color: var(--accent-color);
+  border-radius: 30px;
+  max-width: 680px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.statsSection {
+  border: 1.5px dashed var(--accent-color);
+  border-radius: 30px;
+  padding: 40px 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.statNumber {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: var(--text-main);
+}
+
+.statText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(18, 20, 23, 0.7);
+}
